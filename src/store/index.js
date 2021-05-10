@@ -21,6 +21,9 @@ export default new Vuex.Store({
     
   },
   actions: {
+    changeCity(ctx,city){
+      ctx.commit("changeCity",city)
+    }
   },
   modules: {
   }

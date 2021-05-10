@@ -19,7 +19,7 @@ export default {
   },
   methods:{
     handleClick(city){
-      this.$store.commit("changeCity",city)
+      this.$store.dispatch("changeCity",city)
     }
   }
 }
